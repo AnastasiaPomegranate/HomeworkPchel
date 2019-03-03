@@ -7,6 +7,5 @@ def Evklid (A,B):
 			A=A%B
 		else:
 			B=B%A
-	NOD=A+B
 	return A+B
 print ("NOD=",Evklid(A,B))
