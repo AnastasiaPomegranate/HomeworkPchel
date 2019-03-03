@@ -15,6 +15,8 @@ def nahodX(A,B,C):
 			print("%.2f"%(X1))
 		else :
 			print ("Корней нет")
+	elif (B==0 and C==0):
+		print("Корней нет")
 	else:
 		X1=-C/B
 		print("%.2f"%(X1))
